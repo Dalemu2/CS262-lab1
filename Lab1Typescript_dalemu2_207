@@ -1,0 +1,43 @@
+Script started on Wed 31 Jan 2018 10:35:22 AM EST
+[?1034hbash-4.1$ date
+Wed Jan 31 10:35:32 EST 2018
+bash-4.1$ uname -a
+Linux Zeus-1 2.6.32-696.18.7.el6.centos.plus.x86_64 #1 SMP Tue Jan 9 14:11:50 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+bash-4.1$ pwd
+/home/dalemu2/cs262/lab1_dalemu2_207
+bash-4.1$ ls
+lab1		  lab1_dalemu2_207.c	      Lab1Typpescript_dalemu2_207
+lab1_dalemu2_207  Lab1Typescript_dalemu2_207  Makefile
+bash-4.1$ cat lab1_dalemu2_207.c
+/*Daniel Alemu 00884798
+ * CS 262, Lab Section 207
+ *  * Lab 1
+ *   */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("Hello world!\n");
+    printf("My name is Daniel Alemu .\n");
+    return 0;
+}
+bash-4.1$ rm lab1 lab1_dalemu2_207
+bash-4.1$ make all
+gcc -g -Wall -o lab1_dalemu2_207 lab1_dalemu2_207.c
+bash-4.1$ ls
+lab1_dalemu2_207    Lab1Typescript_dalemu2_207	 Makefile
+lab1_dalemu2_207.c  Lab1Typpescript_dalemu2_207
+bash-4.1$ lab1_u[Kdalemu2_207
+Hello world!
+My name is Daniel Alemu .
+bash-4.1$ gcc -g -Wall[K[K[K[KWall -o lab1 lab1_dalemu2_207.c
+bash-4.1$ ls
+lab1		  lab1_dalemu2_207.c	      Lab1Typpescript_dalemu2_207
+lab1_dalemu2_207  Lab1Typescript_dalemu2_207  Makefile
+bash-4.1$ lab1
+Hello world!
+My name is Daniel Alemu .
+bash-4.1$ exit
+
+Script done on Wed 31 Jan 2018 10:39:08 AM EST
